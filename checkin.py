@@ -14,6 +14,8 @@ import hmac
 import base64
 import urllib.parse
 import logging
+export PYTHONIOENCODING=utf-8
+python your_script.py
 from typing import List, Dict, Any, Tuple, Optional, Callable
 from functools import wraps
 import requests
